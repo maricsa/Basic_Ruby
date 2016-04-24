@@ -1,4 +1,5 @@
 # Create a function that takes a string and adds the phrase "Only in America!" to the end of it
+
 def only_in (string)
 	puts "#{string}. Only in America"
 end
@@ -25,6 +26,7 @@ max_number(numbers)
 #for multiples of three print "Fizz" instead of the number
 #for multiples of five print "Buzz"
 #Print "FizzBuzz" for numbers that are multiples of both 3 and 5.
+
 def multiples
  	for n in 1..100
  		if n%3==0 && n%5==0
@@ -41,6 +43,7 @@ multiples
 #Create a function that takes two arguments - both of them arrays. 
 #Inside of the function, combine the arrays using the items from the first array 
 #as keys and the second array as values.
+
 def combine(camera,type)
 	result = Hash[camera.zip type]
 	puts result
